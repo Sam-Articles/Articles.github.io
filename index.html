@@ -1,29 +1,38 @@
 <html>
- <head>
-  <title> Sami's Articles </title>
-  
- <head>
-<!-- Drop down button's CSS -->
+<head>
 <style>
-.dropbtn {
-  background-color: black;
-  color: white;
-  width: 400px;
-  padding: 50px;
-  font-size: 32px;
-  border: none;
-  cursor: pointer;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.dropdown {
-  position: relative;
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+li.dropdown {
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
+  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -31,97 +40,143 @@
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 20px 16px;
   text-decoration: none;
   display: block;
+  text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-.dropdown
+.dropdown:hover .dropdown-content
 {
    height: 400px;
-   width: 400px;
+   width: 300px;
    overflow: auto;
 }
-<!-- End of dropdown button -->
+
 </style>
 </head>
 <body>
 
-<div class="dropdown">
-  <button class="dropbtn">Article Menu</button>
-  <div class="dropdown-content">
-  <a href="https://article-data.github.io/Love-Poetry.io/"> Poetry on Love (New)------[ Pyaar  ki  ek  kahani  suno!!! ] </a>
-  <a href="https://article-data.github.io/Being-Patient.io/"> Being Patient (New) </a>
-  <a href="#"> A </a>
-  <a href="#"> B </a>
+<title> Home Page </title>
+
+<ul>
+  <li><a href="https://sam-articles.github.io"><b>Home</b></a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn"><b>Articles</b></a>
+    <div class="dropdown-content">
+  <a href="https://article-data.github.io/Secrets-of-Marriage.io/" style="text-align:center;"> <b>Secrets of Successful Marriage (New) </b> </a>
+  <a href="https://article-data.github.io/Being-Patient.io/" style="text-align:center;"> <b> Being Patient (New) </b> </a>
+  <a href="#" style="text-align:center;"> <b>A</b> </a>
+  <a href="#" style="text-align:center;"> <b>B</b> </a>
   <a href="https://article-data.github.io/Being-Patient.io/"> Being Patient </a>
-  <a href="#"> C </a>
-  <a href="#"> D </a>
-  <a href="#"> E </a>
-  <a href="#"> F </a>
-  <a href="#"> G </a>
-  <a href="#"> H </a>
-  <a href="#"> I </a>
-  <a href="#"> J </a>
-  <a href="#"> K </a>
-  <a href="#"> L </a>
-  <a href="#"> M </a>
-  <a href="#"> N </a>
-  <a href="#"> O </a>
-  <a href="#"> P </a>
-  <a href="#"> Q </a>
-  <a href="#"> R </a>
-  <a href="#"> S </a>
-  <a href="#"> T </a>
-  <a href="#"> U </a>
-  <a href="#"> V </a>
-  <a href="#"> W </a>
-  <a href="#"> X </a>
-  <a href="#"> Y </a>
-  <a href="#"> Z </a>
- 
-  </div>
-</div>
+  <a href="#" style="text-align:center;"> <b>C</b> </a>
+  <a href="#" style="text-align:center;"> <b>D</b> </a>
+  <a href="#" style="text-align:center;"> <b>E</b> </a>
+  <a href="#" style="text-align:center;"> <b>F</b> </a>
+  <a href="#" style="text-align:center;"> <b>G</b> </a>
+  <a href="#" style="text-align:center;"> <b>H</b> </a>
+  <a href="#" style="text-align:center;"> <b>I</b> </a>
+  <a href="#" style="text-align:center;"> <b>J</b> </a>
+  <a href="#" style="text-align:center;"> <b>K</b> </a>
+  <a href="#" style="text-align:center;"> <b>L</b> </a>
+  <a href="#" style="text-align:center;"> <b>M</b> </a>
+  <a href="#" style="text-align:center;"> <b>N</b> </a>
+  <a href="#" style="text-align:center;"> <b>O</b> </a>
+  <a href="#" style="text-align:center;"> <b>P</b> </a>
+  <a href="#" style="text-align:center;"> <b>Q</b> </a>
+  <a href="#" style="text-align:center;"> <b>R</b> </a>
+  <a href="#" style="text-align:center;"> <b>S</b> </a>
+  <a href="https://article-data.github.io/Secrets-of-Marriage.io/"> Secrets of Successful Marriage </a>
+  <a href="#" style="text-align:center;"> <b>T</b> </a>
+  <a href="#" style="text-align:center;"> <b>U</b> </a>
+  <a href="#" style="text-align:center;"> <b>V</b> </a>
+  <a href="#" style="text-align:center;"> <b>W</b> </a>
+  <a href="#" style="text-align:center;"> <b>X</b> </a>
+  <a href="#" style="text-align:center;"> <b>Y</b> </a>
+  <a href="#" style="text-align:center;"> <b>Z</b> </a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn"> <b>Poetry</b></a>
+    <div class="dropdown-content">
+  
+  <a href="https://article-data.github.io/Love-Poetry.io/" style="text-align:center;"> <b>Poetry on Love (New)</b> </a>
+  <a href="#" style="text-align:center;"> <b>A</b> </a>
+  <a href="#" style="text-align:center;"> <b>B</b> </a>
+  <a href="#" style="text-align:center;"> <b>C</b> </a>
+  <a href="#" style="text-align:center;"> <b>D</b> </a>
+  <a href="#" style="text-align:center;"> <b>E</b> </a>
+  <a href="#" style="text-align:center;"> <b>F</b> </a>
+  <a href="#" style="text-align:center;"> <b>G</b> </a>
+  <a href="#" style="text-align:center;"> <b>H</b> </a>
+  <a href="#" style="text-align:center;"> <b>I</b> </a>
+  <a href="#" style="text-align:center;"> <b>J</b> </a>
+  <a href="#" style="text-align:center;"> <b>K</b> </a>
+  <a href="#" style="text-align:center;"> <b>L</b> </a>
+  <a href="#" style="text-align:center;"> <b>M</b> </a>
+  <a href="#" style="text-align:center;"> <b>N</b> </a>
+  <a href="#" style="text-align:center;"> <b>O</b> </a>
+  <a href="#" style="text-align:center;"> <b>P</b> </a>
+  <a href="https://article-data.github.io/Love-Poetry.io/"> Poetry on Love </a>
+  <a href="#" style="text-align:center;"> <b>Q</b> </a>
+  <a href="#" style="text-align:center;"> <b>R</b> </a>
+  <a href="#" style="text-align:center;"> <b>S</b> </a>
+  <a href="#" style="text-align:center;"> <b>T</b> </a>
+  <a href="#" style="text-align:center;"> <b>U</b> </a>
+  <a href="#" style="text-align:center;"> <b>V</b> </a>
+  <a href="#" style="text-align:center;"> <b>W</b> </a>
+  <a href="#" style="text-align:center;"> <b>X</b> </a>
+  <a href="#" style="text-align:center;"> <b>Y</b> </a>
+  <a href="#" style="text-align:center;"> <b>Z</b> </a>
+    </div>
+  </li>
+  
+  <li><a href="https://article-data.github.io/About-Me.io/"><b> About Me </b></a></li>
+</ul>
 
-<!-- Starting of main page -->
+<!-- End of dropdown button -->
 
-  <body style="background-color:PeachPuff;">
-	<h1 style="color:Black; font-size:70px; text-align:center;"> Welcome to my Articles! </h1>
+<!-- Starting of the main page --> 
+
+<body style="background-color:PeachPuff;">
+	<h1 style="color:Black; font-size:70px; text-align:center;"> <b> Welcome to my Articles! </b> </h1>
 	
-	<p style="color:Black; font-size:30px; text-align:center;"> <u><b> Just a 21 year old trying to spread some good vibes via pen! </b></u> </p>
+	<p style="color:Black; font-size:30px; text-align:center;"> <b><u> Just a 21 year old trying to spread some good vibes via pen! </u></b> </p> <br><br>
 	
 	
-	<h2 style="color:Black; font-size:50px; text-align:left;"> <u> About Me: </u> 
-	<p style="color:Black; font-size:30px;"> <i> Myself Mohammad Sami. I reside in Charlotte, North Carolina. I was planning to create my own website
-	from a very long time. Finally i was successful in creating one! <br> Please support me guys as this is the start and i promise to provide y'all with the best! <br>
-	You can request a specific topic if you want to and i can add it to my list.
-	</i> </p> </h2>
+	<p style="color:Black; font-size:30px;"> 
+	Welcome to the home page of Articles by Mohammad Sami! <br>
+	Here you will find a lot's of articles on various topics. I hope you will find some interesting topics to read. <br>
+	The content posted here is family friendly, any person of any age can view, there's no restriction. <br>
+	Feel free to share my content, no copyright issues!
+	</p> </h2>
 	
-	<h3 style="color:Black; font-size:50px; text-align:left;"> <u> Some wise words from wise men! </u> <h3> 
-	<u> With great power, comes great responsibility and with great responsibility comes great wisdom!</u>
-	<p style="text-align:center" > - Williamson </p> <br><br>
-	<p style="text-align:right "> <u> A fool is known by his speech and A wise man by his silence! </u> </p>
-	<p style="text-align:right"> - Moses </p> <br><br>
-	<u> The two powers which in my opinion constitute a wise man are those of bearing and forbearing</u>
-	<p style="text-align:center"> - Freddie <br><br>
-	<p style="text-align:right "> <u> The real power of a man is in the size of smile of the woman sitting next to him! </u> </p>
-	<p style="text-align:right "> - Neil </p> <br><br>
+	<h3 style="color:Black; font-size:50px; text-align:left;"> <u> Some wise words from wise men! </u> </h3> <br><br>
+	<p style="font-size: 25px;">
+	<b> Let me embrace thee, sour adversity, for wise men say it is the wisest course! </b> </p>
+	<p style="font-size: 20px;text-align:center;"> - William Shakespeare </p> <br><br>
+	<p style="font-size: 25px;text-align:right";> <b> It takes many good deeds to build a good reputation, and only one bad one to lose it! </b> </p>
+	<p style="font-size: 20px;text-align:right";> - Benjamin Franklin </p> <br><br>
+	
+	<p style="font-size: 25px;">
+	<b> Truth is a good dog; but always beware of barking too close to the heels of an error, lest you get your brains kicked out!</b> </p>
+	<p style="font-size: 20px;text-align:center;"> - Francis Bacon <br><br> </p>
+	<p style="font-size: 25px;text-align:right;"> <b> May none but honest and wise men ever rule under this roof! </b> </p>
+	<p style="font-size: 20px;text-align:right;"> - David McCullough </p> <br><br>
 	
 	<h4 style="color:Black; font-size:30px; text-align:left;"> <u> Note:</u> This site is still under development! </h4>
 	
-	<h6 style="color:Blue; font-size:15px; text-align:bottom-left;"> Feel free to reach me via mail <br>
-    <u> mohiuddin.sami@yahoo.com </u> <br>	</h6>
-	
-  </body>
-	
+
+<!-- End of the main page -->
+
+
+
+
+</body>
 </html>
