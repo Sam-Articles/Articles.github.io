@@ -62,13 +62,19 @@ li.dropdown {
    overflow: auto;
 }
 
-body {
+.body {
   background-image: url('bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+@media (max-width: 650px) {
+	.body {
+		background-attachment: scroll;
+	}
+}
+	
 </style>
 </head>
 <body>
